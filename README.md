@@ -1,4 +1,6 @@
 # Simple LiveCharts Anguar Gauge
+
+## Remember to Cite AJ and Tom for finding and figuring out how this works.
  Build A Simple LiveCharts 2 Angular Gauge
 
 
