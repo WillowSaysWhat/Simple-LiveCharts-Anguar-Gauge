@@ -7,6 +7,7 @@
 * [Technologies](#technologies)
 * [Prerequesites](#prerequesites)
 * [Setup](#setup)
+* [Manual Setup/Build](#manual-setup/build)
 
 ## General Info
 ### Why I made this simple build solution for LiveCharts Angular Gauges.
@@ -24,11 +25,25 @@ This tutorial was created with:
 * Threads and Delegates
 
 ## Setup
+To ensure the Angular Gauges work on your Visual Studio, you will need to install the nuiget package for Live Charts.
 
-
-## LiveCharts Installation
+1. To find your package manager window, right click on the name of your solution in the solution explorer. You can see in the image below that I have highlighted the correct selection.
 ![image](https://github.com/WillowSaysWhat/Simple-LiveCharts-Anguar-Gauge/assets/126318401/5310966c-ad90-4dd9-903e-23ee8d70cd97)
+
+2. The package manager screen will open in the "Installed" tab.
+3. You will need to change it to the "Browse" tab and search for 'LiveCharts'. The search bar is under the "Browse" tab. 
 ![image](https://github.com/WillowSaysWhat/Simple-LiveCharts-Anguar-Gauge/assets/126318401/183b473c-49a4-470b-a0dd-dd9215d23ebf)
+
+4. Ensure you are installing the correct version of LiveCharts for your WinForm - for example a .Net framework project uses the WinForm download.
+5. The "install" button is located on the right side of the packages window
 ![image](https://github.com/WillowSaysWhat/Simple-LiveCharts-Anguar-Gauge/assets/126318401/933743a5-6b7d-469f-9d0a-341cc090bc36)
+6. This single selection will download all the dependencies.
 ![image](https://github.com/WillowSaysWhat/Simple-LiveCharts-Anguar-Gauge/assets/126318401/285a8bd0-8764-43fd-b701-c5bb96874240)
+7. Ignore this webpage. just close it.
 ![image](https://github.com/WillowSaysWhat/Simple-LiveCharts-Anguar-Gauge/assets/126318401/0d074965-7542-4109-bf2e-2ae1bbb710ae)
+
+## Manual Setup/Build
+It is important to understand that most programmers are going to find a drag-and-drop element in their design toolbox. If it is there, use it. If you are unable to get the designer to load the LiveChart elements in the toolbox, we can use the manual build workaround.
+
+For ease of learning, all build syntax has been written in the form1 class so any beginner WinFormers can find and replicate this workaround without delving into the Designer.cs file. 
+From herem you can check out the code in the repository on do a pull request. If you would like to view the code right here in GitHub... still under construction.
