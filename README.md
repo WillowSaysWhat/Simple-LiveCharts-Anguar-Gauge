@@ -1,19 +1,25 @@
-![image](https://github.com/WillowSaysWhat/Simple-LiveCharts-Anguar-Gauge/assets/126318401/1bda43b9-657a-46b7-907b-f0d3fa60d277)
+![image](https://github.com/WillowSaysWhat/Simple-LiveCharts-Anguar-Gauge/assets/126318401/623498c1-959a-4636-b0d0-4a2ad309ca64)
+
+
 
 # How to Build and Animate Gauges in C# WinForms Using LiveCharts
+#### This is a simple way to build Angular Gauges for C# WinForms when the drag-and-drop feature is not available in the designer.
 
-##Table of Contents
+
+## Table of Contents
 * [General Info](#general-info)
 * [Technologies](#technologies)
 * [Prerequesites](#prerequesites)
 * [Setup](#setup)
-* [Manual Setup/Build](#manual-setup/build)
+* [Manual Setup Build](#manual-build)
+* [Screenshots](#screenshots)
+
+![image](https://github.com/WillowSaysWhat/Simple-LiveCharts-Anguar-Gauge/assets/126318401/1bda43b9-657a-46b7-907b-f0d3fa60d277)
 
 ## General Info
 ### Why I made this simple build solution for LiveCharts Angular Gauges.
-So, TL;DR. I decided to add telemetry gauges to my remote flight controller assignment for year 2 comp sci, but I could not drag-and-drop the guage from the designer toolbox as it was not in the list. Even after trying many different fixes, I eventually realised that I would have to manually build the gauge. The only problem... there was no documentation on how to create this specific gauge. But thanks to my wonderful mentor @TiredAJ, we were able to figure out the syntax and build a handsome-looking gauge. I then went on to build six guages for my assessment.
+So, TL;DR. I decided to add telemetry gauges to my remote flight controller assignment for year 2 comp sci, but I could not drag-and-drop the guage from the designer toolbox as it was not in the list. Even after trying many different fixes, I eventually realised that I would have to manually build the gauge. The only problem... there was no documentation on how to create this specific gauge. But thanks to my wonderful mentor [A.J](https://github.com/TiredAJ), we were able to figure out the syntax and build a handsome-looking gauge. I then went on to build six guages for my assessment.
 
-This is a simple way to be able to build Angular Gauges for C# WinForms when the drag-and-drop feature is not available in the designer.
 ## Prerequesites
 The gauges are not difficult to build, however, Event-Driven programing is something that will need to be learned or understood to be able to make them work. You will also need to be able to follow the nuiget pacakge installation tutorial below. Othewise the barrier of entry into LiveChart package is very low and novice-friendly. See here for [LiveCharts Installation](#setup)
 ## Technologies
@@ -42,8 +48,11 @@ To ensure the Angular Gauges work on your Visual Studio, you will need to instal
 7. Ignore this webpage. just close it.
 ![image](https://github.com/WillowSaysWhat/Simple-LiveCharts-Anguar-Gauge/assets/126318401/0d074965-7542-4109-bf2e-2ae1bbb710ae)
 
-## Manual Setup/Build
+## Manual Build
 It is important to understand that most programmers are going to find a drag-and-drop element in their design toolbox. If it is there, use it. If you are unable to get the designer to load the LiveChart elements in the toolbox, we can use the manual build workaround.
 
 For ease of learning, all build syntax has been written in the form1 class so any beginner WinFormers can find and replicate this workaround without delving into the Designer.cs file. 
-From herem you can check out the code in the repository on do a pull request. If you would like to view the code right here in GitHub... still under construction.
+From herem you can check out the code in the repository on do a pull request. If you would like to view the code right here in GitHub, [click here.](https://github.com/WillowSaysWhat/Simple-LiveCharts-Anguar-Gauge/blob/main/SimpleAngularGauge/Form1.cs)
+
+## Screenshots
+Under Construction...
