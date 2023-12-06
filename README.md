@@ -1,5 +1,8 @@
-![image](https://github.com/WillowSaysWhat/Simple-LiveCharts-Anguar-Gauge/assets/126318401/623498c1-959a-4636-b0d0-4a2ad309ca64)
 
+
+<p align="center">
+  <img src="https://github.com/WillowSaysWhat/Simple-LiveCharts-Anguar-Gauge/assets/126318401/847c0696-b07c-483e-ae4a-0032434afe11"/>
+</p>
 
 
 # How to Build and Animate Gauges in C# WinForms Using LiveCharts
@@ -56,3 +59,4 @@ From herem you can check out the code in the repository on do a pull request. If
 
 ## Screenshots
 Under Construction...
+![image](https://github.com/WillowSaysWhat/Simple-LiveCharts-Anguar-Gauge/assets/126318401/623498c1-959a-4636-b0d0-4a2ad309ca64)
